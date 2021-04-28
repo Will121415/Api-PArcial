@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vWM03sW7YJobVSXXDOMR3Lmj0QVt5prWChsqMMWRhvSOStdmqt/BHGXRBvbOYJUnzLRlfnP71o1bInGzVTn2OA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dubam\\Documents\\mobile\\Parcial2\\Api-PArcial\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dubam\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
