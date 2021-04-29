@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using DAL;
 using Entity;
-
+using Microsoft.EntityFrameworkCore;
 namespace BLL
 {
     public class UserAttentionStaffService
@@ -26,10 +26,10 @@ namespace BLL
         }
 
         public ResponseList<UserAttentionStaff> AllUserAttention()
-        {
+        {  
             try
             {
-                var attentions = _context.UserAttentionStaffs.ToList();
+                var attentions = _context.UserAttentionStaffs.Include(u => u.User).ToList();
                 return new ResponseList<UserAttentionStaff>(attentions);
             } catch (Exception e ) 
             {
@@ -60,9 +60,12 @@ namespace BLL
         {
             try
             {
-                var attentionSearch = _context.UserAttentionStaffs.Find(attentionId);
+                 var attentionSearch = _context.UserAttentionStaffs.Include(u => u.User)
+                                                .Where(uas => uas.AttentionId == attentionId).FirstOrDefault();
+                // var attentionSearch = _context.UserAttentionStaffs.Find(attentionId);
                 if (attentionSearch != null) {
                     _context.UserAttentionStaffs.Remove(attentionSearch);
+                    _context.Users.Remove(attentionSearch.User);
                     _context.SaveChanges();
                 }
                 return new Response<UserAttentionStaff>(attentionSearch);

@@ -10,6 +10,9 @@ namespace apiParcial.models
         public string Type { get; set; }
         public string Photo { get; set; }
         public string ServiceStatus { get; set; }
+        public UserInputModel User { get; set; }
+        
+        
     }
 
     public class AttentionStaffViewModel: AttentionStaffInputModel
@@ -24,7 +27,8 @@ namespace apiParcial.models
             Type = userAttention.Type;
             Photo = userAttention.Photo;
             ServiceStatus = userAttention.ServiceStatus;
-
+            User = new UserInputModel();
+            User =  new UserViewModel(userAttention.User);
             
         }
 
