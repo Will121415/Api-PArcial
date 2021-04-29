@@ -40,6 +40,7 @@ namespace api_movil.Controllers
         {
             var patient = new Patient
             {
+                PatientId = patientInputModel.PatientId,
                 Name = patientInputModel.Name,
                 LastName = patientInputModel.LastName,
                 Photo = patientInputModel.Photo,
@@ -74,6 +75,7 @@ namespace api_movil.Controllers
         public ActionResult<PatientViewModel> Modify(PatientInputModel patientInputModel)
         {
             Patient patient = MapearClient(patientInputModel);
+            patient.Status= patientInputModel.Status;
             var response = _Service.Update(patient);
             if (response.Error == false) return Ok(response.Object);
             else return BadRequest(response.Message);
@@ -81,7 +83,7 @@ namespace api_movil.Controllers
         }
 
         // PUT: api/Patient/Delete
-        [HttpDelete("{identificacion}")]
+        [HttpDelete("{patientId}")]
         public ActionResult<PatientInputModel> Delete(String patientId)
         {
             var response = _Service.Delete(patientId);

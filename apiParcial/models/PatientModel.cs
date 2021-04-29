@@ -4,6 +4,7 @@ namespace apiParcial.models
 {
     public class PatientInputModel
     {
+        public string PatientId { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
         public string Photo { get; set; }
@@ -12,13 +13,12 @@ namespace apiParcial.models
         public string Neighborhood { get; set; }
         public string Phone { get; set; }
         public string City { get; set; }
+        public string Status { get; set; }
 
     }
 
     public class PatientViewModel : PatientInputModel
     {
-        public string PatientId { get; set; }
-        public string Status { get; set; }
         public PatientViewModel() { }
 
         public PatientViewModel(Patient patient)
