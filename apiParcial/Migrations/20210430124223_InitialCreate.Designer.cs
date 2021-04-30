@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace apiParcial.Migrations
 {
     [DbContext(typeof(ParcialContext))]
-    [Migration("20210428155146_Correction")]
-    partial class Correction
+    [Migration("20210430124223_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,8 +23,10 @@ namespace apiParcial.Migrations
 
             modelBuilder.Entity("Entity.Appointment", b =>
                 {
-                    b.Property<string>("AppointmentId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("AppointmentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
@@ -32,14 +34,17 @@ namespace apiParcial.Migrations
                     b.Property<string>("PatientId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("UserAttentionStaffAttentionId")
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserAttentionStaffId")
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("AppointmentId");
 
                     b.HasIndex("PatientId");
 
-                    b.HasIndex("UserAttentionStaffAttentionId");
+                    b.HasIndex("UserAttentionStaffId");
 
                     b.ToTable("Appointments");
                 });
@@ -83,35 +88,41 @@ namespace apiParcial.Migrations
 
             modelBuilder.Entity("Entity.User", b =>
                 {
-                    b.Property<string>("UserName")
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("UserName");
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
 
                     b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Entity.UserAdmin", b =>
                 {
-                    b.Property<string>("AdminId")
+                    b.Property<string>("UserAdminId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("UserName")
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("AdminId");
+                    b.HasKey("UserAdminId");
 
-                    b.HasIndex("UserName");
+                    b.HasIndex("UserId");
 
                     b.ToTable("UserAdmins");
                 });
 
             modelBuilder.Entity("Entity.UserAttentionStaff", b =>
                 {
-                    b.Property<string>("AttentionId")
+                    b.Property<string>("UserAttentionStaffId")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LastName")
@@ -129,12 +140,12 @@ namespace apiParcial.Migrations
                     b.Property<string>("Type")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserName")
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("AttentionId");
+                    b.HasKey("UserAttentionStaffId");
 
-                    b.HasIndex("UserName");
+                    b.HasIndex("UserId");
 
                     b.ToTable("UserAttentionStaffs");
                 });
@@ -142,12 +153,12 @@ namespace apiParcial.Migrations
             modelBuilder.Entity("Entity.Appointment", b =>
                 {
                     b.HasOne("Entity.Patient", "Patient")
-                        .WithMany()
+                        .WithMany("appointments")
                         .HasForeignKey("PatientId");
 
                     b.HasOne("Entity.UserAttentionStaff", "UserAttentionStaff")
-                        .WithMany()
-                        .HasForeignKey("UserAttentionStaffAttentionId");
+                        .WithMany("appointments")
+                        .HasForeignKey("UserAttentionStaffId");
 
                     b.Navigation("Patient");
 
@@ -158,7 +169,7 @@ namespace apiParcial.Migrations
                 {
                     b.HasOne("Entity.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserName");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
@@ -167,9 +178,19 @@ namespace apiParcial.Migrations
                 {
                     b.HasOne("Entity.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserName");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Entity.Patient", b =>
+                {
+                    b.Navigation("appointments");
+                });
+
+            modelBuilder.Entity("Entity.UserAttentionStaff", b =>
+                {
+                    b.Navigation("appointments");
                 });
 #pragma warning restore 612, 618
         }

@@ -4,8 +4,7 @@ namespace Entity
 {
     public class UserAdmin
     {
-        [Key]
-        public string AdminId {get; set; }
+        public string UserAdminId {get; set; }
         public User User { get; set; }
     }
 }
