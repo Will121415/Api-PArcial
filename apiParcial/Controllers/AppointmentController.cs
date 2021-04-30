@@ -95,7 +95,7 @@ namespace apiParcial.Controllers
 
         // PUT: api/Appointment
         [HttpPut("api/Appointment/AssignAppointment")]
-        public ActionResult<PatientViewModel> AssignAppointment(String appointmentId,String IduserStaff)
+        public ActionResult<PatientViewModel> AssignAppointment(int appointmentId,String IduserStaff)
         {
             var response = _Service.AssignAppointment(appointmentId,IduserStaff);
             if (response.Error == false) return Ok(response.Object);
@@ -105,7 +105,7 @@ namespace apiParcial.Controllers
 
         // PUT: api/Appointment
         [HttpPut("api/Appointment/ChanceState")]
-        public ActionResult<PatientViewModel> ChanceState(String appointmentId,int status)
+        public ActionResult<PatientViewModel> ChanceState(int appointmentId,int status)
         {
             var response = _Service.ChanceState(appointmentId,status);
             if (response.Error == false) return Ok(response.Object);

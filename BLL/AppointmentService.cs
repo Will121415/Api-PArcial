@@ -39,18 +39,23 @@ namespace BLL
             }
         }
 
-        public Response<Appointment> AssignAppointment(String appointmentId,String IduserStaff)
+        public Response<Appointment> AssignAppointment(int appointmentId,String IduserStaff)
         {
             try
             {
-                var staff = _context.UserAttentionStaffs.Find(IduserStaff);
-                var appointment = _context.Appointments.Find(appointmentId);
+                var staffs = _context.UserAttentionStaffs.Include(u=>u.appointments);
+                var staff = staffs.Where(p=>p.UserAttentionStaffId==IduserStaff).FirstOrDefault();
+                var appointment = _context.Appointments.Include(p=>p.Patient)
+                    .Include(b=>b.UserAttentionStaff)
+                    .Where(c=>c.AppointmentId==appointmentId)
+                    .FirstOrDefault();
 
                 if(staff==null)  return new Response<Appointment>("El Usuario de atencion no se escuantra registrado");
                 if(appointment==null)  return new Response<Appointment>("la cita no se encuntra registrada");
-                appointment.UserAttentionStaff = staff;
                 appointment.Status= Status[3];
-                _context.Appointments.Update(appointment);
+                staff.appointments.Add(appointment);
+                _context.UserAttentionStaffs.Update(staff);
+                // _context.Appointments.Update(appointment);
                 _context.SaveChanges();
                 return new Response<Appointment>(appointment);
 
@@ -62,11 +67,14 @@ namespace BLL
             }
         }
 
-        public Response<Appointment> ChanceState(String appointmentId,int status)
+        public Response<Appointment> ChanceState(int appointmentId,int status)
         {
             try
             {
-                var appointment = _context.Appointments.Find(appointmentId);
+                var appointment = _context.Appointments.Include(p=>p.UserAttentionStaff)
+                    .Include(b=>b.Patient)
+                    .Where(c=>c.AppointmentId==appointmentId)
+                    .FirstOrDefault();
                 if(appointment==null)  return new Response<Appointment>("la cita no se encuntra registrada");
 
                 appointment.Status= Status[status];
