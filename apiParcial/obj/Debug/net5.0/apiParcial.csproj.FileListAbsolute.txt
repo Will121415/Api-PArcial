@@ -138,3 +138,8 @@ C:\Users\dubam\Documents\mobile\Parcial2\Api-PArcial\apiParcial\obj\Debug\net5.0
 C:\Users\dubam\Documents\mobile\Parcial2\Api-PArcial\apiParcial\obj\Debug\net5.0\ref\apiParcial.dll
 C:\Users\dubam\Documents\mobile\Parcial2\Api-PArcial\apiParcial\obj\Debug\net5.0\apiParcial.pdb
 C:\Users\dubam\Documents\mobile\Parcial2\Api-PArcial\apiParcial\obj\Debug\net5.0\apiParcial.genruntimeconfig.cache
+C:\Users\USUARIO\AndroidStudioProjects\APIS\apiParcial\bin\Debug\net5.0\publish\web.config
+C:\Users\USUARIO\AndroidStudioProjects\APIS\apiParcial\bin\Debug\net5.0\publish\apiParcial.deps.json
+C:\Users\USUARIO\AndroidStudioProjects\APIS\apiParcial\bin\Debug\net5.0\publish\apiParcial.runtimeconfig.json
+C:\Users\USUARIO\AndroidStudioProjects\APIS\apiParcial\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\USUARIO\AndroidStudioProjects\APIS\apiParcial\bin\Debug\net5.0\publish\appsettings.json

@@ -1,0 +1,12 @@
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\bin\Release\net5.0\Entity.deps.json
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\bin\Release\net5.0\Entity.dll
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\bin\Release\net5.0\ref\Entity.dll
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\bin\Release\net5.0\Entity.pdb
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.csprojAssemblyReference.cache
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.AssemblyInfoInputs.cache
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.AssemblyInfo.cs
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.dll
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\ref\Entity.dll
+C:\Users\USUARIO\AndroidStudioProjects\APIS\Entity\obj\Release\net5.0\Entity.pdb
