@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vOfcOvU5gogZCgB2yWd4SooExxRv0EBBw7MtfhcPkhZwZdtAiqlgXWcG2JNCnW4+WA2HrmG7JFOWV2jZr68T7g==",
+  "dgSpecHash": "NpbH0wBCCNRGh5Ze9MVAqG1tds4dLWZ2I0Mwoa6N6pQXyj4rNd3grcIgwsZgYh7q9ZE2LVapwb9jzHk9E24rew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj",
+  "projectFilePath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

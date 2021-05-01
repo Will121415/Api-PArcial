@@ -1,10 +1,10 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Entity
 {
     public class Patient
     {
-        [Key]
         public string PatientId { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
@@ -15,6 +15,9 @@ namespace Entity
         public string Phone { get; set; }
         public string City { get; set; }
         public string Status { get; set; }
-       
+
+
+        //relacion 
+        public virtual List<Appointment> appointments { get; set; }  
     }
 }

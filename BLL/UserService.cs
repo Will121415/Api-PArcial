@@ -13,7 +13,7 @@ namespace BLL
         public Response<User> Login(string userName, string password) {
             try {
                 User isUser =
-                     _context.Users.FirstOrDefault(t => t.UserName == userName && t.Password == password && t.Status == "Active");
+                     _context.Users.FirstOrDefault(t => t.UserId == userName && t.Password == password && t.Status == "Active");
 
                 return (isUser != null) ? new Response<User>(isUser) : new Response<User>("EL usuario NO esta registrado...!");
 

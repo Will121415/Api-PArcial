@@ -1,0 +1,15 @@
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\bin\Release\net5.0\DAL.deps.json
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\bin\Release\net5.0\DAL.dll
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\bin\Release\net5.0\ref\DAL.dll
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\bin\Release\net5.0\DAL.pdb
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\bin\Release\net5.0\Entity.dll
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\bin\Release\net5.0\Entity.pdb
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.csprojAssemblyReference.cache
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.AssemblyInfoInputs.cache
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.AssemblyInfo.cs
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.csproj.CoreCompileInputs.cache
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.csproj.CopyComplete
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.dll
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\ref\DAL.dll
+c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\DAL\obj\Release\net5.0\DAL.pdb

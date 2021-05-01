@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj": {}
+    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj": {
+    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj",
+        "projectUniqueName": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj",
+        "projectPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\obj\\",
+        "outputPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj": {}
+    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj": {
+    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj",
+        "projectUniqueName": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj",
+        "projectPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\obj\\",
+        "outputPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"

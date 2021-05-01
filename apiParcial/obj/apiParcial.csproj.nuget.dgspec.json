@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj": {}
+    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj": {
+    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj",
+        "projectUniqueName": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj",
         "projectName": "apiParcial",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj",
+        "projectPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\apiParcial.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\obj\\",
+        "outputPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\apiParcial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
