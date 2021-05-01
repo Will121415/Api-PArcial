@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj": {}
+    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj": {
+    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
