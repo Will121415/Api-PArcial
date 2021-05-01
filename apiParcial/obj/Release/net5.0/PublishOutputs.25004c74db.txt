@@ -1,4 +1,5 @@
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\apiParcial.exe
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\publish\web.config
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\web.config
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\web.config
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\web.config
@@ -21,6 +22,10 @@ C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\apiParcial.runtimeconfig.json
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\appsettings.Development.json
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\appsettings.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\publish\apiParcial.deps.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\publish\apiParcial.runtimeconfig.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\publish\publish\publish\publish\publish\appsettings.json
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\apiParcial.dll
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\apiParcial.runtimeconfig.json
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\publish\apiParcial.pdb

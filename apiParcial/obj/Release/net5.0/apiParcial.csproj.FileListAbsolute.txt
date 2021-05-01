@@ -88,3 +88,8 @@ C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\apiParcial.runtimeconfig.json
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\appsettings.Development.json
 C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\appsettings.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\publish\web.config
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\publish\apiParcial.deps.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\publish\apiParcial.runtimeconfig.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\apiParcial\bin\Release\net5.0\publish\publish\publish\publish\publish\appsettings.json
