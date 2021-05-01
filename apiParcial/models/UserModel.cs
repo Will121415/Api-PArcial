@@ -17,7 +17,7 @@ namespace apiParcial.models
 
         public UserViewModel(User user)
         {
-            UserName = user.UserName;
+            UserName = user.UserId;
             Password = user.Password;
             Status = user.Status;
             Role = user.Role;

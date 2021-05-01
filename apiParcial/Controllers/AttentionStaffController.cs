@@ -33,7 +33,7 @@ namespace apiParcial.Controllers
         {
             UserAttentionStaff attentionStaff = new UserAttentionStaff();
             
-            attentionStaff.AttentionId = staffModel.AttentionId;
+            attentionStaff.UserAttentionStaffId = staffModel.AttentionId;
             attentionStaff.Name = staffModel.Name;
             attentionStaff.LastName = staffModel.LastName;
             attentionStaff.Type = staffModel.Type;
@@ -47,7 +47,7 @@ namespace apiParcial.Controllers
         private User MapUser(UserInputModel userInput)
         {
             User user = new User();
-            user.UserName = userInput.UserName;
+            user.UserId = userInput.UserName;
             user.Password = userInput.Password;
             user.Status = userInput.Status;
             user.Role = userInput.Role;

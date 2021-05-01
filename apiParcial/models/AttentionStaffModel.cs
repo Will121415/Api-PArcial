@@ -21,7 +21,7 @@ namespace apiParcial.models
 
         public AttentionStaffViewModel(UserAttentionStaff userAttention) 
         {
-            AttentionId = userAttention.AttentionId;
+            AttentionId = userAttention.UserAttentionStaffId;
             Name = userAttention.Name;
             LastName = userAttention.LastName;
             Type = userAttention.Type;

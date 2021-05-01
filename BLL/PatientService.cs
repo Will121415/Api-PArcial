@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using DAL;
 using Entity;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace BLL
 {
@@ -33,7 +33,7 @@ namespace BLL
         {
             try
             {
-                var patients = _context.Patients.ToList();
+                var patients = _context.Patients.Include(p=>p.appointments).ToList();
                 return new ResponseList<Patient>(patients);
 
             }
@@ -75,8 +75,11 @@ namespace BLL
         {
             try
             {
-                var oldPatient = _context.Patients.Find(patientId);
+                var allPatient = AllPatient();
+                if(allPatient.Object==null) return new Response<Patient>(allPatient.Message);
+                var oldPatient = allPatient.Object.Where(P=>P.PatientId==patientId).FirstOrDefault();
                 if (oldPatient == null) return new Response<Patient>("El paciente no se encuentra registrado");
+                _context.Appointments.RemoveRange(oldPatient.appointments);
                 _context.Patients.Remove(oldPatient);
                 _context.SaveChanges();
                 return new Response<Patient>(oldPatient);

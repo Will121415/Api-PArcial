@@ -61,7 +61,7 @@ namespace BLL
             try
             {
                  var attentionSearch = _context.UserAttentionStaffs.Include(u => u.User)
-                                                .Where(uas => uas.AttentionId == attentionId).FirstOrDefault();
+                                                .Where(uas => uas.UserAttentionStaffId == attentionId).FirstOrDefault();
                 // var attentionSearch = _context.UserAttentionStaffs.Find(attentionId);
                 if (attentionSearch != null) {
                     _context.UserAttentionStaffs.Remove(attentionSearch);

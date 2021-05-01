@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using apiParcial.models;
+using apiParcial.Controllers;
 
 namespace api_movil.Controllers
 {
@@ -17,43 +18,28 @@ namespace api_movil.Controllers
     public class PatientController : ControllerBase
     {
         private readonly PatientService _Service;
+        private readonly MetodosServices metodos;
 
 
         public PatientController(ParcialContext _context)
         {
             _Service = new PatientService(_context);
+            metodos = new MetodosServices();
         }
 
 
         // Post: api/Patient
         [HttpPost]
-        public ActionResult<PatientInputModel> Post(PatientInputModel patientInputModel)
+        public ActionResult<PatientViewModel> Post(PatientInputModel patientInputModel)
         {
-            Patient patient = MapearClient(patientInputModel);
+            Patient patient = metodos.MapearPatient(patientInputModel);
             var response = _Service.Save(patient);
             if (response.Error == false) return Ok(response.Object);
             else return BadRequest(response.Message);
 
         }
 
-        private Patient MapearClient(PatientInputModel patientInputModel)
-        {
-            var patient = new Patient
-            {
-                Name = patientInputModel.Name,
-                LastName = patientInputModel.LastName,
-                Photo = patientInputModel.Photo,
-                Age = patientInputModel.Age,
-                Address = patientInputModel.Address,
-                Neighborhood = patientInputModel.Neighborhood,
-                Phone = patientInputModel.Phone,
-                City = patientInputModel.City,
 
-            };
-
-
-            return patient;
-        }
 
         // GET: api/Patient
         [HttpGet]
@@ -73,7 +59,8 @@ namespace api_movil.Controllers
         [HttpPut]
         public ActionResult<PatientViewModel> Modify(PatientInputModel patientInputModel)
         {
-            Patient patient = MapearClient(patientInputModel);
+            Patient patient = metodos.MapearPatient(patientInputModel);
+            patient.Status= patientInputModel.Status;
             var response = _Service.Update(patient);
             if (response.Error == false) return Ok(response.Object);
             else return BadRequest(response.Message);
@@ -81,7 +68,7 @@ namespace api_movil.Controllers
         }
 
         // PUT: api/Patient/Delete
-        [HttpDelete("{identificacion}")]
+        [HttpDelete("{patientId}")]
         public ActionResult<PatientInputModel> Delete(String patientId)
         {
             var response = _Service.Delete(patientId);
