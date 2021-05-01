@@ -28,7 +28,7 @@ namespace apiParcial.models
             Photo = userAttention.Photo;
             ServiceStatus = userAttention.ServiceStatus;
             User = new UserInputModel();
-            User =  new UserViewModel(userAttention.User);
+            User = (userAttention.User != null) ? new UserViewModel(userAttention.User): null;
             
         }
 
