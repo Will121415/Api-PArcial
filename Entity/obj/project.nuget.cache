@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gQVu4/E2/T39PIKQT0J+C+y1ANzVqLDJIGIbnsMic3qotpAdwiJlnErL5ocVOrMVR6vtpJ58/usUMmw2tasJRw==",
+  "dgSpecHash": "Nb5KJOXuio/CpDRt8A8KRo0m33R2fD5s80yIOwkRWxsSfE7XcsVMg/DQpgT8+HbWioPuaoX07ABWCM4l+mmsDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\dubam\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

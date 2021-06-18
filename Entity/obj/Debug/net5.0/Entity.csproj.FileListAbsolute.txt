@@ -34,3 +34,15 @@ C:\Users\USUARIO\AndroidStudioProjects\APIS\Api-Parcial\Entity\obj\Debug\net5.0\
 C:\Users\USUARIO\AndroidStudioProjects\APIS\Api-Parcial\Entity\obj\Debug\net5.0\Entity.dll
 C:\Users\USUARIO\AndroidStudioProjects\APIS\Api-Parcial\Entity\obj\Debug\net5.0\ref\Entity.dll
 C:\Users\USUARIO\AndroidStudioProjects\APIS\Api-Parcial\Entity\obj\Debug\net5.0\Entity.pdb
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Debug\net5.0\Entity.deps.json
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Debug\net5.0\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Debug\net5.0\ref\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Debug\net5.0\Entity.pdb
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.csprojAssemblyReference.cache
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.AssemblyInfo.cs
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\ref\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Debug\net5.0\Entity.pdb

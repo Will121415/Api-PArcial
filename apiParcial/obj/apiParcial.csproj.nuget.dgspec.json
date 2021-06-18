@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\apiParcial\\apiParcial.csproj": {}
+    "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\apiParcial\\apiParcial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\apiParcial\\apiParcial.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\apiParcial\\apiParcial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\apiParcial\\apiParcial.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\apiParcial\\apiParcial.csproj",
         "projectName": "apiParcial",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\apiParcial\\apiParcial.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\apiParcial\\obj\\",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\apiParcial\\apiParcial.csproj",
+        "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\apiParcial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\BLL\\BLL.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj"
               }
             }
           }
@@ -83,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\BLL\\BLL.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,11 +111,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj"
               }
             }
           }
@@ -144,21 +144,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,8 +172,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj"
               }
             }
           }
@@ -216,21 +216,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\AndroidStudioProjects\\APIS\\Api-Parcial\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\pacial-2\\Api-Parcial\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -276,7 +276,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
