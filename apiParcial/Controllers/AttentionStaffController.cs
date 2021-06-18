@@ -78,6 +78,17 @@ namespace apiParcial.Controllers
             return Ok(response.Object);
         }
 
+        [HttpPut]
+        public ActionResult<AttentionStaffViewModel> Modify(AttentionStaffInputModel staffModel)
+        {
+            UserAttentionStaff attentionStaff = MapAttentionStaff(staffModel);
+
+            var response = _staffService.Update(attentionStaff);
+            if (response.Error == false) return Ok(response.Object);
+            else return BadRequest(response.Message);
+
+        }
+
         [HttpDelete("{attentionId}")]
         public ActionResult<AttentionStaffViewModel> Delete(string attentionId)
         {

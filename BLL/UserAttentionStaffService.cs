@@ -56,6 +56,38 @@ namespace BLL
             }
         }
 
+        public Response<UserAttentionStaff> Update(UserAttentionStaff staff)
+        {
+            try
+            {
+                var oldStaff = _context.UserAttentionStaffs.Find(staff.UserAttentionStaffId);
+                if (oldStaff == null) return new Response<UserAttentionStaff>("El personal de atencion no se encuentra registrado");
+
+                oldStaff.UserAttentionStaffId = (staff.UserAttentionStaffId == oldStaff.UserAttentionStaffId) ? oldStaff.UserAttentionStaffId : staff.UserAttentionStaffId;
+                oldStaff.Name = (staff.Name == oldStaff.Name) ? oldStaff.Name : staff.Name;
+                oldStaff.LastName = (staff.LastName == oldStaff.LastName) ? oldStaff.LastName: staff.LastName;
+                oldStaff.Photo = (oldStaff.Photo == staff.Photo) ? oldStaff.Photo : staff.Photo;
+                oldStaff.Type = (oldStaff.Type == staff.Type) ? oldStaff.Type : staff.Type;
+                oldStaff.ServiceStatus = (oldStaff.ServiceStatus == staff.ServiceStatus) ? oldStaff.ServiceStatus : staff.ServiceStatus;
+
+                var oldUser = staff.User;
+                oldUser.UserId = (oldUser.UserId == staff.User.UserId) ? oldUser.UserId : staff.User.UserId;
+                oldUser.Role = (oldUser.Role == staff.User.Role) ? oldUser.Role : staff.User.Role;
+                oldUser.Password = (oldUser.Password == staff.User.Password) ? oldUser.Password  : staff.User.Password;
+                oldUser.Status = (oldUser.Status == staff.User.Status) ? oldUser.Status : staff.User.Status;
+
+                _context.UserAttentionStaffs.Update(oldStaff);
+                _context.Users.Update(oldUser);
+                _context.SaveChanges();
+                return new Response<UserAttentionStaff>(oldStaff);
+
+            }
+            catch (Exception e )
+            {
+                return new Response<UserAttentionStaff>("Error: " + e);
+            }
+        }
+
         public Response<UserAttentionStaff> Delete(string attentionId)
         {
             try
