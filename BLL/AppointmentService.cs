@@ -147,8 +147,8 @@ namespace BLL
             {
                 var staff = _context.UserAttentionStaffs.Find(staffid);
                 if(staff==null)  return new ResponseList<Appointment>("El Usuario de atencion no se escuantra registrado");
-                var list= _context.Appointments.Where(p=>p.UserAttentionStaff.UserAttentionStaffId ==staff.UserAttentionStaffId).ToList();
-                return new ResponseList<Appointment>(list);
+                var list= _context.Appointments.Include(p=>p.UserAttentionStaff).Include(p=>p.Patient);
+                return new ResponseList<Appointment>(list.Where(p=>p.UserAttentionStaff.UserAttentionStaffId ==staff.UserAttentionStaffId).ToList());
 
             }
             catch (Exception e)

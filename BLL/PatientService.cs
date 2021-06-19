@@ -56,7 +56,7 @@ namespace BLL
                 oldPatient.Age = (oldPatient.Age == patient.Age) ? oldPatient.Age : patient.Age;
                 oldPatient.Address = (oldPatient.Address == patient.Address) ? oldPatient.Address : patient.Address;
                 oldPatient.Neighborhood = (oldPatient.Neighborhood == patient.Neighborhood) ? oldPatient.Neighborhood : patient.Neighborhood;
-                oldPatient.Phone = (oldPatient.Phone == patient.Photo) ? oldPatient.Phone : patient.Photo;
+                oldPatient.Phone = (oldPatient.Phone == patient.Phone) ? oldPatient.Phone : patient.Phone;
                 oldPatient.City = (oldPatient.City == patient.City) ? oldPatient.City : patient.City;
                 oldPatient.Status = (oldPatient.Status == patient.Status) ? oldPatient.Status : patient.Status;
                 _context.Patients.Update(oldPatient);

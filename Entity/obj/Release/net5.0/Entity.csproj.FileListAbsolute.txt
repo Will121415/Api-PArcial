@@ -10,3 +10,15 @@ c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\Entity\obj\Release\net5.0\E
 c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\Entity\obj\Release\net5.0\Entity.dll
 c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\Entity\obj\Release\net5.0\ref\Entity.dll
 c:\Users\dubam\Documents\mobile\Parcial2\Api-Parcial\Entity\obj\Release\net5.0\Entity.pdb
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Release\net5.0\Entity.deps.json
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Release\net5.0\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Release\net5.0\ref\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\bin\Release\net5.0\Entity.pdb
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.csprojAssemblyReference.cache
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.AssemblyInfoInputs.cache
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.AssemblyInfo.cs
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\ref\Entity.dll
+C:\Users\dubam\Documents\mobile\pacial-2\Api-Parcial\Entity\obj\Release\net5.0\Entity.pdb

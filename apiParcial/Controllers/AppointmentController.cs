@@ -66,7 +66,7 @@ namespace apiParcial.Controllers
         }
 
         // GET: api/Appointment
-        [HttpGet("/UserNull")]
+        [HttpGet("UserNull")]
         public ActionResult<IEnumerable<AppointmentViewModel>> FindByUserNull()
         {
             var response = _Service.FindByUserNull();
@@ -80,14 +80,13 @@ namespace apiParcial.Controllers
         }
 
         // GET: api/Appointment
-        [HttpGet("/UserNoNull")]
+        [HttpGet("UserNoNull")]
         public ActionResult<IEnumerable<AppointmentViewModel>> FindByUserIsNoNull()
         {
             var response = _Service.FindByUserIsNoNull();
             if (response.Error)
             {
-
-                return BadRequest(response.Message);
+                return BadRequest();
             }
             var patient = response.Object.Select(p => new AppointmentViewModel(p));
             return Ok(patient);
