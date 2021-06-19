@@ -55,7 +55,6 @@ namespace BLL
                 appointment.Status= Status[3];
                 staff.appointments.Add(appointment);
                 _context.UserAttentionStaffs.Update(staff);
-                // _context.Appointments.Update(appointment);
                 _context.SaveChanges();
                 return new Response<Appointment>(appointment);
 
@@ -79,6 +78,7 @@ namespace BLL
 
                 appointment.Status= Status[status];
                 _context.Appointments.Update(appointment);
+                _context.SaveChanges();
 
                 return new Response<Appointment>(appointment);
 
@@ -89,6 +89,7 @@ namespace BLL
                 return new Response<Appointment>("Error: " + e);
             }
         }
+        
 
         public ResponseList<Appointment> AllAppointments()
         {

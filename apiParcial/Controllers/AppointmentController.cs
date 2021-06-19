@@ -103,20 +103,14 @@ namespace apiParcial.Controllers
         }
 
         // PUT: api/Appointment
-        [HttpPut("api/Appointment/ChanceState")]
-        public ActionResult<PatientViewModel> ChanceState(int appointmentId,int status)
+        [HttpPut("ChanceState")]
+        public ActionResult<PatientViewModel> ChanceState([FromBody] ChangeAppointModel changeAppoint)
         {
-            var response = _Service.ChanceState(appointmentId,status);
+            var response = _Service.ChanceState(changeAppoint.AppointmentId,changeAppoint.Status);
             if (response.Error == false) return Ok(response.Object);
             else return BadRequest(response.Message);
 
         }
-
-
-
-
-
-
-        
+    
     }
 }
